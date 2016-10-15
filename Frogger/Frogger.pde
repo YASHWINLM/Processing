@@ -9,7 +9,7 @@ void setup(){
 size(400,400);
 
 for(int i=1; i<40; i++){
-cars.add(new Car(2,400,20*i,50));
+cars.add(new Car(20,400,20*i,50));
 }
 }
 void draw(){
@@ -36,12 +36,12 @@ text( "WOOO!!", 100, 100);
 
 
 
-c.display();
-c.move();
-d.display();
-d.move();
-e.display();
-e.move();
+//c.display();
+//c.move();
+//d.display();
+//d.move();
+//e.display();
+//e.move();
 }
 
 boolean intersects(Car c) {
